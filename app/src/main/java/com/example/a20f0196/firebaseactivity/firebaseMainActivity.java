@@ -71,6 +71,10 @@ public class firebaseMainActivity extends AppCompatActivity {
 
 //                    Intent intent= new Intent(firebaseMainActivity.this,deleteactivity.class);
 //                    startActivity(intent);
+                    hellofazal();
+                }
+
+                private void hellofazal() {
                 }
 
             });
