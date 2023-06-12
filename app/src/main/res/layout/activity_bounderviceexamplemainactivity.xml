@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bn"
+    android:gravity="bottom|center|end"
+    android:orientation="vertical"
+    tools:context=".ServiceExamples.boundserviceexample.bounderviceexamplemainactivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="20px">
+
+        <ImageButton
+            android:id="@+id/button8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="29px"
+            android:layout_marginRight="80px"
+            android:background="@drawable/so"
+            android:onClick="stopmusic"
+            android:text="@string/stop"
+            tools:layout_editor_absoluteY="70dp" />
+
+        <ImageButton
+            android:id="@+id/button7"
+            android:layout_width="111dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/p1"
+            android:onClick="playpause"
+            android:paddingLeft="30px"
+            android:text="@string/play_pause"
+            tools:layout_editor_absoluteX="275dp"
+            tools:layout_editor_absoluteY="164dp" />
+
+        <ImageButton
+            android:id="@+id/button11"
+            android:layout_width="109dp"
+            android:layout_height="101dp"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_weight="1"
+
+            android:background="@drawable/po"
+            android:onClick="pause"
+            android:text="Button" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="376dp"
+        android:layout_height="108dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="20px">
+
+        <ImageButton
+            android:id="@+id/Backward"
+            android:layout_width="96dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="200px"
+            android:background="@drawable/bac1"
+            android:gravity="center"
+            android:onClick="backward"
+            android:text="Backward"
+            tools:ignore="HardcodedText"
+            tools:layout_editor_absoluteX="283dp" />
+
+        <ImageButton
+            android:id="@+id/Farward"
+            android:layout_width="89dp"
+            android:layout_height="59dp"
+            android:layout_marginRight="30px"
+            android:background="@drawable/far1"
+            android:onClick="forward"
+            android:text="Farward"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</LinearLayout>

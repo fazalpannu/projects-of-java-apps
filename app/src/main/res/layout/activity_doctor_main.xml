@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dc"
+    tools:context=".project.doctorMainActivity">
+
+    <EditText
+        android:id="@+id/weightEditText"
+        android:layout_width="519dp"
+        android:layout_height="68dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:hint="Weight"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/temperatureEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/temperatureEditText"
+        android:layout_width="515dp"
+        android:layout_height="67dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:hint="Temperature"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/bloodPressureEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weightEditText"
+        app:layout_constraintVertical_bias="0.5"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/bloodPressureEditText"
+        android:layout_width="521dp"
+        android:layout_height="62dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:hint="Blood Pressure"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/symptomsEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/temperatureEditText"
+        app:layout_constraintVertical_bias="0.5"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/symptomsEditText"
+        android:layout_width="519dp"
+        android:layout_height="75dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:hint="Symptoms"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/submitButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bloodPressureEditText"
+        app:layout_constraintVertical_bias="0.5"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="157dp"
+        android:layout_height="45dp"
+        android:background="@drawable/dc"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/symptomsEditText"
+        app:layout_constraintVertical_bias="0.5"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

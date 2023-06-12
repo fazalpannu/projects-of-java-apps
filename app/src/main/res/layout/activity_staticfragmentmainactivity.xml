@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentExamples.staticfragmentexample.staticfragmentmainactivity"
+    tools:ignore="DisableBaselineAlignment">
+<fragment
+
+    android:id="@+id/contactfragment"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    class="com.example.a20f0196.FragmentExamples.staticfragmentexample.ContactsFragment"
+
+    android:layout_height="match_parent"
+    tools:ignore="FragmentTagUsage" />
+    <fragment
+        class="com.example.a20f0196.FragmentExamples.staticfragmentexample.contactdetailsfragment"
+        android:id="@+id/detailfragment"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+
+        android:layout_height="match_parent"
+        tools:ignore="FragmentTagUsage" />
+
+</LinearLayout>

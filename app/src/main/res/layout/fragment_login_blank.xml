@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fitness"
+    tools:context=".project.loginBlankFragment">
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView14"-->
+    <!--        android:layout_width="87dp"-->
+    <!--        android:layout_height="25dp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="weight"-->
+    <!--        android:textColor="#1C1B1B"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:textStyle="bold|italic"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/weightf"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.5"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/heightf"-->
+    <!--        app:layout_constraintVertical_bias="0.5"-->
+    <!--        tools:ignore="HardcodedText,TextSizeCheck" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/namef"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:ems="10"-->
+    <!--        android:gravity="center"-->
+    <!--        android:hint="Name"-->
+    <!--        android:inputType="textPersonName"-->
+    <!--        android:textColorHint="@color/material_dynamic_neutral40"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/textView17"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.5"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textView16"-->
+    <!--        app:layout_constraintVertical_bias="0.5"-->
+    <!--        tools:ignore="Autofill,HardcodedText,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView15"-->
+    <!--        android:layout_width="89dp"-->
+    <!--        android:layout_height="27dp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="Height"-->
+    <!--        android:textColor="#131212"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:textStyle="bold|italic"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/heightf"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.5"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/agef"-->
+    <!--        app:layout_constraintVertical_bias="0.5"-->
+    <!--        tools:ignore="HardcodedText,TextSizeCheck" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/agef"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:ems="10"-->
+    <!--        android:gravity="center"-->
+    <!--        android:hint="Age"-->
+    <!--        android:inputType="textPersonName"-->
+    <!--        android:textColorHint="@color/material_dynamic_neutral40"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/textView15"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.5"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textView17"-->
+    <!--        app:layout_constraintVertical_bias="0.5"-->
+    <!--        tools:ignore="Autofill,DuplicateSpeakableTextCheck,HardcodedText,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView16"-->
+    <!--        android:layout_width="92dp"-->
+    <!--        android:layout_height="26dp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="Name"-->
+    <!--        android:textColor="#131313"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:textStyle="bold|italic"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.5"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"-->
+    <!--        tools:layout_editor_absoluteY="161dp" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/heightf"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:ems="10"-->
+    <!--        android:gravity="center"-->
+    <!--        android:hint="Height"-->
+    <!--        android:inputType="textPersonName"-->
+    <!--        android:textColorHint="@color/material_dynamic_neutral30"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/textView14"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.5"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textView15"-->
+    <!--        app:layout_constraintVertical_bias="0.5"-->
+    <!--        tools:ignore="Autofill,DuplicateSpeakableTextCheck,HardcodedText,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView17"-->
+    <!--        android:layout_width="103dp"-->
+    <!--        android:layout_height="34dp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="Age"-->
+    <!--        android:textColor="#1C1B1B"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:textStyle="bold|italic"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/agef"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.5"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/namef"-->
+    <!--        app:layout_constraintVertical_bias="0.5"-->
+    <!--        tools:ignore="HardcodedText,TextSizeCheck" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/weightf"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:ems="10"-->
+    <!--        android:gravity="center"-->
+    <!--        android:hint="Weight"-->
+    <!--        android:inputType="textPersonName"-->
+    <!--        android:textColorHint="@color/material_dynamic_neutral30"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/submitf"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.5"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textView14"-->
+    <!--        app:layout_constraintVertical_bias="0.5"-->
+    <!--        tools:ignore="Autofill,HardcodedText,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck,UnknownIdInLayout" />-->
+
+    <!--&lt;!&ndash;    <Button&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:id="@+id/submitf"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:layout_width="142dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:layout_height="60dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:background="@drawable/button"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:backgroundTint="@color/material_dynamic_primary100"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:text="Submit"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:textColor="#222020"&ndash;&gt;-->
+    <!--&lt;!&ndash;        app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;        app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;        app:layout_constraintHorizontal_bias="0.498"&ndash;&gt;-->
+    <!--&lt;!&ndash;        app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;        app:layout_constraintTop_toBottomOf="@+id/weightf"&ndash;&gt;-->
+    <!--&lt;!&ndash;        app:layout_constraintVertical_bias="0.5"&ndash;&gt;-->
+    <!--&lt;!&ndash;        tools:ignore="HardcodedText,TextContrastCheck"&ndash;&gt;-->
+    <!--&lt;!&ndash;        tools:layout_editor_absoluteX="101dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;        tools:layout_editor_absoluteY="552dp" />&ndash;&gt;-->
+
+    <EditText
+        android:id="@+id/namlog1"
+        android:layout_width="243dp"
+        android:layout_height="39dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:hint=" Enter  Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/purple_200"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/agelog1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:layout_constraintVertical_bias="0.5"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/agelog1"
+        android:layout_width="243dp"
+        android:layout_height="39dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Age"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/purple_200"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/weiglog1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/namlog1"
+        app:layout_constraintVertical_bias="0.5"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/heiglog1"
+        android:layout_width="243dp"
+        android:layout_height="39dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Height"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/purple_200"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/button233"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weiglog1"
+        app:layout_constraintVertical_bias="0.5"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="375dp"
+        android:layout_height="85dp"
+        android:gravity="center"
+        android:text="ENTER  BASIC  DETAILS"
+        android:textColor="#121111"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/namlog1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/weiglog1"
+        android:layout_width="243dp"
+        android:layout_height="39dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter  Weight"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/purple_200"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/heiglog1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agelog1"
+        app:layout_constraintVertical_bias="0.5"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button233"
+        android:layout_width="148dp"
+        android:layout_height="57dp"
+        android:background="@drawable/faz"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/heiglog1"
+        app:layout_constraintVertical_bias="0.5"
+        tools:ignore="HardcodedText" />
+</androidx.constraintlayout.widget.ConstraintLayout>
